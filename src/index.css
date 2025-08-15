@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bgblackAuth {
+  background: url('/public/Frame2.svg');
+}
+
+.bgcolorAuth {
+  background: url('/public/colorbg.svg ')
+}
+
+.hnavbg {
+  background: url('/public/hnavbg.svg');
+  background-size: 100%;
+}
+
+.herohomebg {
+  background: url('/public/homebg.svg') no-repeat;
+  background-size: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+.playwrite {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.mont {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}

@@ -1,0 +1,28 @@
+
+.box {
+  width: 45%; /* Adjust width as needed */
+  float: left;
+  margin: 2.5%; /* Adjust margin to create space between them */
+  box-sizing: border-box;
+}
+.clear {
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .box {
+      width: 90%; /* Full width on smaller screens */
+      margin: 5% auto; /* Center them vertically */
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* App.css */
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000; /* Ensure it's on top of other elements */
+}
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
